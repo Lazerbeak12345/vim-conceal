@@ -24,6 +24,7 @@ syntax keyword jsBooleanFalse false conceal cchar=⊥
 syntax keyword jsConditional if conceal cchar=▸
 syntax keyword jsConditional else conceal cchar=▪
 syntax keyword jsRepeat for conceal cchar=∀
+syntax keyword jsRepeat forEach conceal cchar=∀
 syntax keyword jsRepeat while conceal cchar=∀
 syntax keyword jsOperator in conceal cchar=∈
 syntax keyword jsOperator of conceal cchar=∋
