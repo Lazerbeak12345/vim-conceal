@@ -31,7 +31,7 @@ syntax keyword jsOperator of conceal cchar=∋
 syntax keyword jsReturn return conceal cchar=⤺
 syntax keyword jsThis this conceal cchar=⟐
 syntax keyword jsStatement function conceal cchar=∫
-syntax keyword jsStorageClass const var let conceal cchar=፨
+syntax keyword jsStorageClass const var let conceal cchar=●
 syntax keyword jsStorageClass document window conceal cchar=⟁
 
 hi link jsOperator Operator
