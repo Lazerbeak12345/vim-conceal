@@ -12,8 +12,7 @@ syntax match scalaNiceOperator ">>" conceal cchar=»
 
 let s:extraConceal = 1
 
-if
-  s:extraConceal
+if s:extraConceal
   " Match greater than and lower than w/o messing with Kleisli composition
   syntax match scalaNiceOperator "<=\ze[^<]" conceal cchar=≤
   syntax match scalaNiceOperator ">=\ze[^>]" conceal cchar=≥
