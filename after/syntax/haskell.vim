@@ -111,9 +111,7 @@ if s:extraConceal
     syntax match hsNiceOperator "-o" conceal cchar=⊸
 endif
 
-"hi link hsNiceOperator Operator
-""hi! link Conceal Operator
-
-hi hsNiceOperator cterm=bold ctermbg=1
+hi link hsNiceOperator Operator
+hi! link Conceal Operator
 
 setlocal conceallevel=2
