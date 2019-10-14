@@ -111,8 +111,8 @@ if s:extraConceal
     syntax match hsNiceOperator "-o" conceal cchar=⊸
 endif
 
+hi texBoldMathText cterm=bold ctermbg=45
+hi Operator cterm=bold ctermbg=31
 ""hi link hsNiceOperator Operator
 ""hi! link Conceal Operator
-hi link hsNiceOperator Operator
-"hi! link Haskell02 Operator
 setlocal conceallevel=2
