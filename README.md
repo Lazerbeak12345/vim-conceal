@@ -1,3 +1,9 @@
+# Vim-Conceal
+
+This is a fork off of [this repo by khzaw](https://github.com/khzaw/vim-conceal).
+I've forked off of the original because I noticed a lot of good stuff in the forks of the original, and wanted some good place to get them all from.
+I might continue to maintain this in the future. Pull requests _very_ welcome! :wink:
+
 Make use of vim's "conceal" feature to replace certain language keywords with unicode characters. Just for pure eyecandy. This does not replace your source code at any point.
 
 ![screenshot_before](screen_shot_before.png "Screenshot before")
