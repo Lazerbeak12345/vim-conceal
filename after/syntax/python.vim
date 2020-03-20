@@ -5,14 +5,12 @@ endif
 " comparators
 syntax match pyOperator "<=" conceal cchar=≤
 syntax match pyOperator ">=" conceal cchar=≥
-syntax match pyOperator "!=" conceal cchar=≢
+syntax match pyOperator "!=" conceal cchar=≠
 
 " math related
 syntax match pyOperator " / " conceal cchar=÷
 syntax match pyOperator " \* " conceal cchar=×
 syntax match pyOperator "\<\%(math\.\)\?sqrt\>" conceal cchar=√
-syntax match pyOperator "\( \|\)\*\*\( \|\)2\>" conceal cchar=²
-syntax match pyOperator "\( \|\)\*\*\( \|\)3\>" conceal cchar=³
 syntax match pyKeyword "\<\%(math\.\)\?pi\>" conceal cchar=π
 
 " keywords
