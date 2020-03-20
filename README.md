@@ -16,5 +16,9 @@ Use of a plugin manager like [Pathogen](https://github.com/tpope/vim-pathogen), 
 Plugin is inspired by:
   - <http://github.com/Twinside/vim-haskellConceal>
   - <https://github.com/khzaw/vim-conceal>
+  - <https://github.com/jamestomasino-forks/vim-conceal>
+  - <https://github.com/Cassin01/vim-conceal>
+  - <https://github.com/Koisell/vim-conceal>
+  - <https://github.com/jamestomasino/vim-conceal>
   - <https://github.com/mpollmeier/vim-scalaConceal>
 
